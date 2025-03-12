@@ -34,12 +34,11 @@ A basic web-based CAD viewer that can import, display, and manipulate simple 3D 
     - /model/filename (GET method)
       - Enter filename after /model like /model/Cottage_FREE.stl        
 
-## Demo Video
+## Demo Picture
 
-Watch the demo video explaining the approach and key features of this project:
-[![Demo Video](https://img.youtube.com/vi/your_video_id/0.jpg)](https://drive.google.com/file/d/your_google_drive_video_link/view)
+Watch the demo picture explaining the approach and key features of this project:
+![WhatsApp Image 2025-03-12 at 01 23 05_4fc704b6](https://github.com/user-attachments/assets/c1de77c8-3295-4683-994a-57ff9b32019f)
 
-*Note: Replace `your_video_id` with your actual YouTube video ID (if applicable) or update the link to your Google Drive video.*
 
 ## Local Setup Instructions
 
@@ -49,6 +48,11 @@ Make sure you have installed:
 - **Python 3.x**
 - **Node.js and npm**
 - **Git (Optional)**
+
+### Technologies Used
+      Frontend: React, Three.js, OrbitControls
+      Backend: Flask, Gunicorn, numpy-stl
+      Conversion Functionality: Custom endpoints to convert between STL and OBJ formats
 
 ### Open command prompt and perform below steps
 ### Backend Setup (Flask API)
@@ -117,7 +121,4 @@ Make sure you have installed:
         ├── package-lock.json
         └── package.json
 
-### Technologies Used
-      Frontend: React, Three.js, OrbitControls
-      Backend: Flask, Gunicorn, numpy-stl
-      Conversion Functionality: Custom endpoints to convert between STL and OBJ formats
+
