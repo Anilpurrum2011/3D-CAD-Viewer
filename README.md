@@ -49,16 +49,19 @@ Make sure you have installed:
 - **Node.js and npm**
 - **Git (Optional)**
 
-### Technologies Used
-      Frontend: React, Three.js, OrbitControls
-      Backend: Flask, Gunicorn, numpy-stl
-      Conversion Functionality: Custom endpoints to convert between STL and OBJ formats
+## 🛠️ Tech Stack
+
+| Component    | Technology |
+|-------------|------------|
+| **Frontend** | React, Three.js, OrbitControls |
+| **Backend**  | Django, Django REST Framework |
+| **Database** | SQLite |
 
 ### Open command prompt and perform below steps
 ### Backend Setup (Flask API)
 1. **Clone the repository and navigate to folder:**
    ```cmd
-   git clone https://github.com/Sumanth-Siddareddy/CAD-Viewer
+   git clone https://github.com/Anilpurrum2011/3D-CAD-Viewer
    ```
    ```cmd
    cd CAD-Viewer/cad-backend
@@ -87,7 +90,7 @@ Make sure you have installed:
 ### Frontend Setup (React Application)
 1. **Navigate to the React project folder:**
    ```
-     cd ../cad-viewer
+     cd ../cad-frontend
    ```
 2. **Install dependencies:**
      ```
@@ -102,12 +105,12 @@ Make sure you have installed:
    ```
 
 ### Project Structure
-    CAD-Viewer-WebApp/
+    #3D CAD-Viewer-WebApp/
     ├── cad-backend/
     │   ├── app.py
     │   ├── requirements.txt
     │   └── uploads/
-    └── cad-viewer/
+    └── cad-frontend/
         ├── public/
         ├── src/
         │   ├── App.js
