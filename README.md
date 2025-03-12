@@ -54,7 +54,7 @@ Make sure you have installed:
 | Component    | Technology |
 |-------------|------------|
 | **Frontend** | React, Three.js, OrbitControls |
-| **Backend**  | Django, Django REST Framework |
+| **Backend**  | Flask |
 | **Database** | SQLite |
 
 ### Open command prompt and perform below steps
