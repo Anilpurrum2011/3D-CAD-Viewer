@@ -55,7 +55,6 @@ Make sure you have installed:
 |-------------|------------|
 | **Frontend** | React, Three.js, OrbitControls |
 | **Backend**  | Flask |
-| **Database** | SQLite |
 
 ### Open command prompt and perform below steps
 ### Backend Setup (Flask API)
