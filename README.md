@@ -62,27 +62,22 @@ Make sure you have installed:
 1. **Clone the repository and navigate to folder:**
    ```cmd
    git clone https://github.com/Anilpurrum2011/3D-CAD-Viewer
-   ```
-   ```cmd
    cd CAD-Viewer/cad-backend
    ```
 
 2. **Set up a virtual environment:**
    ```
      python -m venv venv
-   ```
-3. **Activate the virtual environment:** 
-      ```
-      Windows : venv\Scripts\activate
+     Windows : venv\Scripts\activate
       ```
       ```
       macOS/Linux : source venv/bin/activate
-      ```
-4. **Install required packages:**
+   ```
+3. **Install required packages:**
     ```
        pip install -r requirements.txt
     ```
-5. **Run the Flask server:**
+4. **Run the Flask server:**
      ```
        python app.py
      ```
@@ -100,9 +95,6 @@ Make sure you have installed:
    ```
      nodemon start
    ``` 
-   ```
-     npm start
-   ```
 
 ### Project Structure
     3D CAD-Viewer-WebApp/
