@@ -62,16 +62,17 @@ Make sure you have installed:
 1. **Clone the repository and navigate to folder:**
    ```cmd
    git clone https://github.com/Anilpurrum2011/3D-CAD-Viewer
+   
    cd CAD-Viewer/cad-backend
    ```
 
 2. **Set up a virtual environment:**
    ```
      python -m venv venv
+   
      Windows : venv\Scripts\activate
-      ```
-      ```
-      macOS/Linux : source venv/bin/activate
+   
+     macOS/Linux : source venv/bin/activate
    ```
 3. **Install required packages:**
     ```
