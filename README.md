@@ -49,7 +49,7 @@ Make sure you have installed:
 - **Node.js and npm**
 - **Git (Optional)**
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component    | Technology |
 |-------------|------------|
@@ -105,7 +105,7 @@ Make sure you have installed:
    ```
 
 ### Project Structure
-    #3D CAD-Viewer-WebApp/
+    3D CAD-Viewer-WebApp/
     ├── cad-backend/
     │   ├── app.py
     │   ├── requirements.txt
